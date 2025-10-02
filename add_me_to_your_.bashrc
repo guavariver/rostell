@@ -1,4 +1,4 @@
-# simplay add this to your ~/.bashrc file to be able to use my rostell function
+# simply add this to your ~/.bashrc file to be able to use my rostell function
 # guavariver - my custom functions to figure out utilized topics by packages, on the fly, without having to run their nodes:
 _ros_find_source_path() {
     local workspace_src_path=$(echo $ROS_PACKAGE_PATH | cut -d':' -f1)
